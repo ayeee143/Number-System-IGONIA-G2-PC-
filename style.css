@@ -1,0 +1,185 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #5f1222;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    margin-top: 17px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 20px;
+    box-shadow: 10px 10px 30px #2c2c2c, -10px -10px 30px #eab123;
+}
+
+h1 {
+    text-align: center;
+    color: #3e3e3e;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.name-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #3e3e3e;
+}
+
+.tag-text {
+    font-size: 16px;
+    color: #7e7e7e;
+}
+
+.menu {
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.menu button {
+    padding: 10px 20px;
+    border: 1px rgb(160, 157, 157) solid;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight:525;
+    margin: 5px;
+    color: #eab123;
+
+}
+
+.menu button:hover {
+    background-color: #c4c4c4;
+}
+
+.Image img{
+    height: 40px;
+    margin-left: 890px;
+    margin-top: 31px;
+
+}
+
+.power{
+    color: black;
+    position: relative;
+}
+
+.power h3{
+    margin-top: -35px;
+    margin-left:920px;
+    color: white;
+    width: 100%;
+    position: relative;
+}
+
+.Video video{
+    height: 50px;
+    margin-left: 935px;
+    margin-top: -15px;
+    border-radius: 10px;
+}
+.nameheader{
+    border: 6px white solid;
+    color: white;
+
+    width: 22%;
+    justify-content: center;
+    text-align: center;
+    margin-left: 740px;
+}
+
+.nameheader h1{
+    color: white;
+    font-size: 30px;
+    text-shadow: 2px 3px 2px rgb(221, 219, 219);
+    font-weight: 1000;
+}
+.conversion label {
+    font-weight: 1000;
+    font-size: 15px;
+    color: #3e3e3e;
+}
+
+.neu-button {
+    padding: 8px 20px;
+    background-color: maroon;
+    color: #ffffff;
+    border: none;
+    font-weight: 1000;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 5px 5px 15px #b8b8b8, -5px -5px 15px #ffffff;
+}
+
+.conversion {
+    text-align: center;
+    position: relative; /* Add position relative to the container */
+}
+
+#enterValueLabel {
+    position: absolute;
+    top: -40px; /* Adjust as per your design */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%);
+    font-weight: bold;
+    color: #3e3e3e;
+}
+
+.neu-input {
+    padding: 8px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: gold;
+    box-shadow: inset 5px 5px 15px #b8b8b8, inset -5px -5px 15px #ffffff;
+    width: 100%; /* Set input width to 100% */
+    box-sizing: border-box; /* Include padding and border in width calculation */
+}
+
+.menu {
+    text-align: center;
+    margin-top: 20px; /* Adjust margin as per your design */
+}
+
+.neu-button:hover {
+    background-color: #c4c4c4;
+}
+
+#output {
+    font-size: 16px;
+    color: #3e3e3e;
+}
+
+.output-space {
+    height: 50px;
+    background-color: gold;
+    box-shadow: inset 5px 5px 15px #b8b8b8, inset -5px -5px 15px #ffffff;
+    padding: 10px;
+    margin-top: 10px; /* Adjust as per your design */
+    border-radius: 5px;
+}
+
+/*Footer*/
+
+.footer {
+    background-color: #5f1222;
+    padding: 20px;
+    text-align: center;
+    margin-top: -50px;
+}
+
+.footer p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.footer a{
+    text-decoration: none;
+}
