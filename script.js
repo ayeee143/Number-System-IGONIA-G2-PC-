@@ -37,6 +37,8 @@ function resetInput() {
     document.getElementById("inputNumber").value = "";
     // Clear the output space
     document.getElementById("outputSpace").innerHTML = "";
+    // Clear the error text
+    document.getElementById("output").innerHTML = "";
 }
 
 // This function converts the input number according to its type
