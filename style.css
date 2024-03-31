@@ -1,186 +1,198 @@
+/* Styling for the entire page */
 body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #5f1222;
-    margin: 0;
-    padding: 0;
+    font-family: 'Roboto', sans-serif; /* Use Roboto font for the entire page */
+    background-color: #5f1222; /* Set a dark red background color */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
 }
 
+/* Styling for the main container */
 .container {
-    max-width: 400px;
-    margin: 50px auto;
-    margin-top: 17px;
-    padding: 20px;
-    background-color: #f0f0f0;
-    border-radius: 20px;
-    box-shadow: 10px 10px 30px #2c2c2c, -10px -10px 30px #eab123;
+    max-width: 400px; /* Set maximum width of the container */
+    margin: 50px auto; /* Center the container horizontally with some top margin */
+    margin-top: 17px; /* Additional top margin */
+    padding: 20px; /* Add padding inside the container */
+    background-color: #f0f0f0; /* Set a light gray background color */
+    border-radius: 20px; /* Rounded corners */
+    box-shadow: 10px 10px 30px #2c2c2c, -10px -10px 30px #eab123; /* Add shadow effect */
 }
 
+/* Styling for headings */
 h1 {
-    text-align: center;
-    color: #3e3e3e;
+    text-align: center; /* Center align headings */
+    color: #3e3e3e; /* Set a dark gray color */
 }
 
+/* Styling for header */
 .header {
-    text-align: center;
-    margin-bottom: 20px;
+    text-align: center; /* Center align header content */
+    margin-bottom: 20px; /* Add space at the bottom */
 }
 
+/* Styling for name text */
 .name-text {
-    font-size: 24px;
-    font-weight: bold;
-    color: #3e3e3e;
+    font-size: 24px; /* Set font size */
+    font-weight: bold; /* Set font weight to bold */
+    color: #3e3e3e; /* Set a dark gray color */
 }
 
+/* Styling for tag text */
 .tag-text {
-    font-size: 16px;
-    color: #7e7e7e;
+    font-size: 16px; /* Set font size */
+    color: #7e7e7e; /* Set a light gray color */
 }
 
+/* Styling for menu */
 .menu {
-    text-align: center;
-    margin-bottom: 20px;
-
+    text-align: center; /* Center align menu */
+    margin-bottom: 20px; /* Add space at the bottom */
 }
 
+/* Styling for menu buttons */
 .menu button {
-    padding: 10px 20px;
-    border: 1px rgb(160, 157, 157) solid;
-    border-radius: 10px;
-    cursor: pointer;
-    font-weight:525;
-    margin: 5px;
-    color: #eab123;
-
+    padding: 10px 20px; /* Add padding */
+    border: 1px rgb(160, 157, 157) solid; /* Add border */
+    border-radius: 10px; /* Rounded corners */
+    cursor: pointer; /* Change cursor on hover */
+    font-weight:525; /* Adjust font weight */
+    margin: 5px; /* Add margin */
+    color: #eab123; /* Set a light gold color */
 }
 
+/* Hover effect for menu buttons */
 .menu button:hover {
-    background-color: #c4c4c4;
+    background-color: #c4c4c4; /* Set a light gray background on hover */
 }
 
-.Image img{
-    height: 40px;
-    margin-left: 890px;
-    margin-top: 31px;
-
+/* Styling for images */
+.Image img {
+    height: 40px; /* Set height */
+    margin-left: 890px; /* Adjust horizontal position */
+    margin-top: 31px; /* Adjust vertical position */
 }
 
-.power{
-    color: black;
-    position: relative;
+/* Styling for power section */
+.power {
+    color: black; /* Set text color to black */
+    position: relative; /* Set position to relative for child elements */
 }
 
-.power h3{
-    margin-top: -35px;
-    margin-left:920px;
-    color: white;
-    width: 100%;
-    position: relative;
+/* Styling for power heading */
+.power h3 {
+    margin-top: -35px; /* Adjust vertical position */
+    margin-left:920px; /* Adjust horizontal position */
+    color: white; /* Set text color to white */
+    width: 100%; /* Set width to 100% */
+    position: relative; /* Set position to relative */
 }
 
-.Video video{
-    height: 50px;
-    margin-left: 935px;
-    margin-top: -15px;
-    border-radius: 10px;
-}
-.nameheader{
-    border: 10px white solid;
-    color: white;
-
-    width: 22%;
-    justify-content: center;
-    text-align: center;
-    margin-left: 740px;
-    margin-top: 20px;
+/* Styling for video section */
+.Video video {
+    height: 50px; /* Set height */
+    margin-left: 935px; /* Adjust horizontal position */
+    margin-top: -15px; /* Adjust vertical position */
+    border-radius: 10px; /* Rounded corners */
 }
 
-.nameheader h1{
-    color: white;
-    font-size: 30px;
-    text-shadow: 2px 3px 2px rgb(221, 219, 219);
-    font-weight: 1000;
+/* Styling for name header */
+.nameheader {
+    border: 10px white solid; /* Set white border */
+    color: white; /* Set text color to white */
+    width: 22%; /* Set width */
+    justify-content: center; /* Center content */
+    text-align: center; /* Center align text */
+    margin-left: 740px; /* Adjust horizontal position */
+    margin-top: 20px; /* Adjust vertical position */
 }
+
+/* Styling for name header text */
+.nameheader h1 {
+    color: white; /* Set text color to white */
+    font-size: 30px; /* Set font size */
+    text-shadow: 2px 3px 2px rgb(221, 219, 219); /* Add text shadow effect */
+    font-weight: 1000; /* Set font weight */
+}
+
+/* Styling for conversion labels */
 .conversion label {
-    font-weight: 1000;
-    font-size: 15px;
-    color: #3e3e3e;
+    font-weight: 1000; /* Set font weight */
+    font-size: 15px; /* Set font size */
+    color: #3e3e3e; /* Set a dark gray color */
 }
 
+/* Styling for neu buttons */
 .neu-button {
-    padding: 8px 20px;
-    background-color: maroon;
-    color: #ffffff;
-    border: none;
-    font-weight: 1000;
-    border-radius: 10px;
-    cursor: pointer;
-    box-shadow: 5px 5px 15px #b8b8b8, -5px -5px 15px #ffffff;
+    padding: 8px 20px; /* Add padding */
+    background-color: maroon; /* Set maroon background color */
+    color: #ffffff; /* Set text color to white */
+    border: none; /* Remove border */
+    font-weight: 1000; /* Set font weight */
+    border-radius: 10px; /* Rounded corners */
+    cursor: pointer; /* Change cursor on hover */
+    box-shadow: 5px 5px 15px #b8b8b8, -5px -5px 15px #ffffff; /* Add shadow effect */
 }
 
+/* Styling for conversion section */
 .conversion {
-    text-align: center;
-    position: relative; /* Add position relative to the container */
+    text-align: center; /* Center align text */
+    position: relative; /* Set position to relative */
 }
 
+/* Styling for input label */
 #enterValueLabel {
-    position: absolute;
-    top: -40px; /* Adjust as per your design */
+    position: absolute; /* Set position to absolute */
+    top: -40px; /* Adjust vertical position */
     left: 50%; /* Center horizontally */
-    transform: translateX(-50%);
-    font-weight: bold;
-    color: #3e3e3e;
+    transform: translateX(-50%); /* Center horizontally */
+    font-weight: bold; /* Set font weight to bold */
+    color: #3e3e3e; /* Set a dark gray color */
 }
 
+/* Styling for input */
 .neu-input {
-    padding: 8px;
-    font-size: 16px;
-    margin-bottom: 10px;
-    border: none;
-    border-radius: 10px;
-    background-color: gold;
-    box-shadow: inset 5px 5px 15px #b8b8b8, inset -5px -5px 15px #ffffff;
+    padding: 8px; /* Add padding */
+    font-size: 16px; /* Set font size */
+    margin-bottom: 10px; /* Add space at the bottom */
+    border: none; /* Remove border */
+    border-radius: 10px; /* Rounded corners */
+    background-color: gold; /* Set gold background color */
+    box-shadow: inset 5px 5px 15px #b8b8b8, inset -5px -5px 15px #ffffff; /* Add shadow effect */
     width: 100%; /* Set input width to 100% */
     box-sizing: border-box; /* Include padding and border in width calculation */
 }
 
-.menu {
-    text-align: center;
-    margin-top: 20px; /* Adjust margin as per your design */
-}
-
-.neu-button:hover {
-    background-color: #c4c4c4;
-}
-
+/* Styling for output section */
 #output {
-    font-size: 16px;
-    color: #3e3e3e;
+    font-size: 16px; /* Set font size */
+    color: #3e3e3e; /* Set a dark gray color */
 }
 
+/* Styling for output space */
 .output-space {
-    height: 50px;
-    background-color: gold;
-    box-shadow: inset 5px 5px 15px #b8b8b8, inset -5px -5px 15px #ffffff;
-    padding: 10px;
-    margin-top: 10px; /* Adjust as per your design */
-    border-radius: 5px;
+    height: 50px; /* Set height */
+    background-color: gold; /* Set gold background color */
+    box-shadow: inset 5px 5px 15px #b8b8b8, inset -5px -5px 15px #ffffff; /* Add shadow effect */
+    padding: 10px; /* Add padding */
+    margin-top: 10px; /* Add space at the top */
+    border-radius: 5px; /* Rounded corners */
 }
 
-/*Footer*/
-
+/* Styling for footer */
 .footer {
-    background-color: #5f1222;
-    padding: 20px;
-    text-align: center;
-    margin-top: -50px;
+    background-color: #5f1222; /* Set dark red background color */
+    padding: 20px; /* Add padding */
+    text-align: center; /* Center align text */
+    margin-top: -50px; /* Adjust vertical position */
 }
 
+/* Styling for footer paragraphs */
 .footer p {
-    margin: 5px 0;
-    font-size: 14px;
-    color: #ffffff;
+    margin: 5px 0; /* Add margin */
+    font-size: 14px; /* Set font size */
+    color: #ffffff; /* Set text color to white */
 }
 
-.footer a{
-    text-decoration: none;
+/* Styling for footer links */
+.footer a {
+    text-decoration: none; /* Remove underline */
 }
